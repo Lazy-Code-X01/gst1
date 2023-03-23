@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header{
+    padding: 20px 40px;
+    background-color: #151212;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav, .logo{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+}
+
+ul li{
+    padding: 8px 12px;
+    border-radius: 4px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: line-through;
+    color: #fff;
+}
+
+/* hero */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+    background-image: url(../images/bgimage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-text{
+    width: 80%;
+    padding: 20px 40px;
+}
+.hero h1{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.hero p{    
+    margin-top: 26px;
+    width: 50%;
+    font-size: 20px;
+    color: #fff;
+    /* font-weight: 400; */
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.hero button{
+    margin-top: 26px;
+    width: 20%;
+    padding: 20px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #151212;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.hero button:hover{
+    transition: 0.3s ease;
+    background-color: #1512126d;
+    cursor: pointer;
+}
+
+
+/* food menu styles */
+.food-menu{
+    padding: 80px 40px;
+    background-color: #1E1E1E;
+    width: 100%;
+}
+
+.food-menu-text h1{
+    font-size: 40px;
+    color: #36F606;
+    font-weight: 600;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.food-menu-items{
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #fff;
+    height: max-content;
+}
+
+.food-menus{
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+.food-menus h1{
+    line-height: 2;
+}
+
+
+/* contact */
+.contact-container{
+    padding: 85px 40px;
+    background-color: #272727;
+    width: 100%;
+}
+
+.contact-container h1{
+    font-size: 40px;
+    color: #36F606;
+    font-weight: 600;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.details{
+    margin: 30px auto;
+    gap: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+/* .img-container img{
+    width: %;
+    height: 300px;
+} */
+.form-holder{
+    margin-bottom: 25px;
+}
+.form-holder input{
+    outline: none;
+    background: none;
+    border: none;
+    height: 48px;
+    width: 452px;
+    background-color: white;
+    text-indent: 20px;
+}
+.form-holder textarea{
+    outline: none;
+    background: none;
+    border: none;
+    width: 452px;
+    background-color: white;
+    padding: 20px;
+    resize: none;
+}
+
+button{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 32px;
+    background-color: #151212;
+    width: 452px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+}
+button:hover{
+    transition: 0.3s ease;
+    background-color: #1512126d;
+}
